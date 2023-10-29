@@ -34,7 +34,7 @@ function Header() {
                         <Link to={'/'}>Home</Link>
                     </Button>
 
-                    <Button variant={"ghost"} colorScheme={'purple'}>
+                    <Button onClick={onClose} variant={"ghost"} colorScheme={'purple'}>
                         <Link to={'/video'}>Video</Link>
                     </Button>
 
